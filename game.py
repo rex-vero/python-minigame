@@ -10,7 +10,6 @@ numbers = random.randint(min, max)
 while (1):
     counter += 1
     guess = int(input("Guess a number: "))
-    print(guess)
     if (guess == numbers):
         print(f"After {counter} times you won :))))) ")
         break
